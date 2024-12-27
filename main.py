@@ -4,7 +4,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
-IMG = cv2.imread("img\\test.png") #이미지 불러오기
+IMG = cv2.imread("img\\input.png") #이미지 불러오기
 if IMG is None:
     print("사진 파일을 점검해주십시오")
     sys.exit()
